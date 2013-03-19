@@ -1,0 +1,2676 @@
+===================Welcome to the machines!!!==================
+Instrumenting Class: B
+Instrumenting Class: J
+Instrumenting Class: com.srts.phaseI.tes4.ACController$FanSpeed
+Instrumenting Class: com.srts.phaseI.tes4.ACController$RunningStatus
+Instrumenting Class: com.srts.phaseI.tes4.ACController
+Instrumenting Class: com.srts.phaseI.tes4.CentralController
+Instrumenting Class: com.srts.phaseI.tes4.Simulation
+Instrumenting Class: com.srts.phaseI.tes4.TemperatureSensor
+Instrumenting Class: com.srts.phaseI.tes4.UserInputSimulation
+Instrumenting Class: com.srts.phaseI.tes4.WeatherSensor$WeatherStates
+Instrumenting Class: com.srts.phaseI.tes4.WeatherSensor
+Instrumenting Class: com.srts.phaseI.tes4.WiperController$states
+Instrumenting Class: com.srts.phaseI.tes4.WiperController
+Instrumenting Class: com.srts.phaseI.test.ABC
+Instrumenting Class: com.srts.phaseI.test.FindGreatest
+Instrumenting Class: com.srts.phaseI.test.PowerState
+Instrumenting Class: com.srts.phaseI.test.PowerState2
+Instrumenting Class: com.srts.phaseI.test.SwitchSource
+Instrumenting Class: com.srts.phaseI.test.Television
+Instrumenting Class: com.srts.phaseI.test.Test
+Instrumenting Class: com.srts.phaseI.test.Test1
+Instrumenting Class: com.srts.phaseI.test.Test123
+Instrumenting Class: com.srts.phaseI.test.X
+Instrumenting Class: com.srts.phaseI.test.Y
+Instrumenting Class: com.srts.phaseI.test2.PowerState
+Instrumenting Class: com.srts.phaseI.test2.PowerState2
+Instrumenting Class: com.srts.phaseI.test2.Television
+Instrumenting Class: com.srts.phaseI.test3.Book
+Instrumenting Class: com.srts.phaseI.test3.Document
+Instrumenting Class: com.srts.phaseI.test3.InternalUser
+Instrumenting Class: com.srts.phaseI.test3.Journal
+Instrumenting Class: com.srts.phaseI.test3.Library
+Instrumenting Class: com.srts.phaseI.test3.Loan
+Instrumenting Class: com.srts.phaseI.test3.LoanUser
+Instrumenting Class: com.srts.phaseI.test3.TechnicalReport
+Instrumenting Class: com.srts.phaseI.test3.User
+--------------------------------------------------- constpool
+  [1]: constant_class {name=#2("com/srts/phaseI/test2/PowerState")}
+  [2]: constant_utf8 {"com/srts/phaseI/test2/PowerState"}
+  [3]: constant_class {name=#4("java/lang/Object")}
+  [4]: constant_utf8 {"java/lang/Object"}
+  [5]: constant_utf8 {"power"}
+  [6]: constant_utf8 {"Z"}
+  [7]: constant_utf8 {"ps"}
+  [8]: constant_utf8 {"Lcom/srts/phaseI/test2/PowerState;"}
+  [9]: constant_utf8 {"<clinit>"}
+  [10]: constant_utf8 {"()V"}
+  [11]: constant_utf8 {"Code"}
+  [12]: methodref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#13("<init>","()V")}
+  [13]: name_and_type {name=#14("<init>"),desciptor=#10("()V")}
+  [14]: constant_utf8 {"<init>"}
+  [15]: fieldref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#16("ps","Lcom/srts/phaseI/test2/PowerState;")}
+  [16]: name_and_type {name=#7("ps"),desciptor=#8("Lcom/srts/phaseI/test2/PowerState;")}
+  [17]: constant_utf8 {"LineNumberTable"}
+  [18]: constant_utf8 {"LocalVariableTable"}
+  [19]: constant_utf8 {"getPower"}
+  [20]: constant_utf8 {"()I"}
+  [21]: fieldref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#22("power","Z")}
+  [22]: name_and_type {name=#5("power"),desciptor=#6("Z")}
+  [23]: constant_utf8 {"this"}
+  [24]: constant_utf8 {"StackMapTable"}
+  [25]: constant_utf8 {"toggleState"}
+  [26]: constant_utf8 {"(I)V"}
+  [27]: constant_utf8 {"ctd"}
+  [28]: constant_utf8 {"I"}
+  [29]: methodref {class=#3("java/lang/Object"),nameType=#13("<init>","()V")}
+  [30]: constant_utf8 {"(Z)V"}
+  [31]: constant_utf8 {"p"}
+  [32]: constant_utf8 {"SourceFile"}
+  [33]: constant_utf8 {"PowerState.java"}
+  [34]: constant_utf8 {"staticThis"}
+  [35]: constant_utf8 {"$state"}
+  [36]: constant_utf8 {"Ljava/lang/String;"}
+  [37]: name_and_type {name=#34("staticThis"),desciptor=#8("Lcom/srts/phaseI/test2/PowerState;")}
+  [38]: fieldref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#37("staticThis","Lcom/srts/phaseI/test2/PowerState;")}
+  [39]: constant_utf8 {"getInt"}
+  [40]: constant_utf8 {"(II)I"}
+  [41]: name_and_type {name=#39("getInt"),desciptor=#40("(II)I")}
+  [42]: constant_utf8 {"gov/nasa/jpf/jvm/Verify"}
+  [43]: constant_class {name=#42("gov/nasa/jpf/jvm/Verify")}
+  [44]: methodref {class=#43("gov/nasa/jpf/jvm/Verify"),nameType=#41("getInt","(II)I")}
+  [45]: name_and_type {name=#19("getPower"),desciptor=#20("()I")}
+  [46]: methodref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#45("getPower","()I")}
+  [47]: name_and_type {name=#25("toggleState"),desciptor=#26("(I)V")}
+  [48]: methodref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#47("toggleState","(I)V")}
+  [49]: name_and_type {name=#14("<init>"),desciptor=#30("(Z)V")}
+  [50]: methodref {class=#1("com/srts/phaseI/test2/PowerState"),nameType=#49("<init>","(Z)V")}
+  [51]: constant_utf8 {"main"}
+  [52]: constant_utf8 {"([Ljava/lang/String;)V"}
+  [53]: constant_utf8 {"args"}
+  [54]: constant_utf8 {"[Ljava/lang/String;"}
+
+--------------------------------------------------- class
+    class=com/srts/phaseI/test2/PowerState
+    superclass=java/lang/Object
+    flags=0x20
+    interface count=0
+--------------------------------------------------- fields
+    field count=4
+    [0]: power, type=Z,flags=0x2, attr count=0
+
+    [1]: ps, type=Lcom/srts/phaseI/test2/PowerState;,flags=0x8, attr count=0
+
+    [2]: staticThis, type=Lcom/srts/phaseI/test2/PowerState;,flags=0xA, attr count=0
+
+    [3]: $state, type=Ljava/lang/String;,flags=0x1, attr count=0
+
+--------------------------------------------------- methods
+    method count=6
+    [0]: <clinit>()V, flags=0x8, attr count=1
+        [0]: Code, maxStack=2,maxLocals=0,length=21
+              0: new @1("com/srts/phaseI/test2/PowerState")
+              3: dup
+              4: invokespecial @12("com/srts/phaseI/test2/PowerState","<init>","()V")
+              7: putstatic @38("com/srts/phaseI/test2/PowerState","staticThis","Lcom/srts/phaseI/test2/PowerState;")
+             10: new @1("com/srts/phaseI/test2/PowerState")
+             13: dup
+             14: invokespecial @12("com/srts/phaseI/test2/PowerState","<init>","()V")
+             17: putstatic @15("com/srts/phaseI/test2/PowerState","ps","Lcom/srts/phaseI/test2/PowerState;")
+             20: return
+        exception table count=0
+        code attribute count=1
+            [0]: LineNumberTable, linenumber count=2
+                [0]: line=28, pc=10
+                [1]: line=4, pc=20
+
+    [1]: getPower()I, flags=0x1, attr count=1
+        [0]: Code, maxStack=1,maxLocals=1,length=11
+              0: aload_0
+              1: getfield @21("com/srts/phaseI/test2/PowerState","power","Z")
+              4: ifeq +5 (9)
+              7: iconst_1
+              8: ireturn
+              9: iconst_0
+             10: ireturn
+        exception table count=0
+        code attribute count=3
+            [0]: LineNumberTable, linenumber count=3
+                [0]: line=8, pc=0
+                [1]: line=9, pc=7
+                [2]: line=11, pc=9
+            [1]: LocalVariableTable, localVar count=1
+                [0]: this, type=Lcom/srts/phaseI/test2/PowerState;, scope=[0..10], slot=0
+            [2]: StackMapTable ,length=3,data=[00 01 09]
+
+    [2]: toggleState(I)V, flags=0x1, attr count=1
+        [0]: Code, maxStack=2,maxLocals=2,length=22
+              0: iload_1
+              1: iconst_2
+              2: if_icmpne +19 (21)
+              5: aload_0
+              6: aload_0
+              7: getfield @21("com/srts/phaseI/test2/PowerState","power","Z")
+             10: ifeq +7 (17)
+             13: iconst_0
+             14: goto +4 (18)
+             17: iconst_1
+             18: putfield @21("com/srts/phaseI/test2/PowerState","power","Z")
+             21: return
+        exception table count=0
+        code attribute count=3
+            [0]: LineNumberTable, linenumber count=3
+                [0]: line=15, pc=0
+                [1]: line=16, pc=5
+                [2]: line=17, pc=21
+            [1]: LocalVariableTable, localVar count=2
+                [0]: this, type=Lcom/srts/phaseI/test2/PowerState;, scope=[0..21], slot=0
+                [1]: ctd, type=I, scope=[0..21], slot=1
+            [2]: StackMapTable ,length=22,data=[00 03 51 07 00 01 ff 00 00 00..]
+
+    [3]: <init>()V, flags=0x1, attr count=1
+        [0]: Code, maxStack=2,maxLocals=1,length=10
+              0: aload_0
+              1: invokespecial @29("java/lang/Object","<init>","()V")
+              4: aload_0
+              5: iconst_0
+              6: putfield @21("com/srts/phaseI/test2/PowerState","power","Z")
+              9: return
+        exception table count=0
+        code attribute count=2
+            [0]: LocalVariableTable, localVar count=1
+                [0]: this, type=Lcom/srts/phaseI/test2/PowerState;, scope=[0..9], slot=0
+            [1]: LineNumberTable, linenumber count=1
+                [0]: line=19, pc=0
+
+    [4]: <init>(Z)V, flags=0x1, attr count=1
+        [0]: Code, maxStack=2,maxLocals=2,length=30
+              0: aload_0
+              1: invokespecial @29("java/lang/Object","<init>","()V")
+              4: iload_1
+              5: ifeq +11 (16)
+              8: aload_0
+              9: iload_1
+             10: putfield @21("com/srts/phaseI/test2/PowerState","power","Z")
+             13: goto +16 (29)
+             16: aload_0
+             17: iload_1
+             18: ifeq +7 (25)
+             21: iconst_0
+             22: goto +4 (26)
+             25: iconst_1
+             26: putfield @21("com/srts/phaseI/test2/PowerState","power","Z")
+             29: return
+        exception table count=0
+        code attribute count=3
+            [0]: LineNumberTable, linenumber count=5
+                [0]: line=21, pc=0
+                [1]: line=22, pc=4
+                [2]: line=23, pc=8
+                [3]: line=25, pc=16
+                [4]: line=26, pc=29
+            [1]: LocalVariableTable, localVar count=2
+                [0]: this, type=Lcom/srts/phaseI/test2/PowerState;, scope=[0..29], slot=0
+                [1]: p, type=Z, scope=[0..29], slot=1
+            [2]: StackMapTable ,length=33,data=[00 04 ff 00 10 00 02 07 00 01..]
+
+    [5]: main([Ljava/lang/String;)V, flags=0x9, attr count=1
+        [0]: Code, maxStack=3,maxLocals=1,length=69
+              0: iconst_0
+              1: iconst_3
+              2: invokestatic @44("gov/nasa/jpf/jvm/Verify","getInt","(II)I")
+              5: tableswitch [0..3] default: +63
+                  0: +31 (36)
+                  1: +38 (43)
+                  2: +46 (51)
+                  3: +54 (59)
+             36: getstatic @38("com/srts/phaseI/test2/PowerState","staticThis","Lcom/srts/phaseI/test2/PowerState;")
+             39: invokevirtual @46("com/srts/phaseI/test2/PowerState","getPower","()I")
+             42: return
+             43: getstatic @38("com/srts/phaseI/test2/PowerState","staticThis","Lcom/srts/phaseI/test2/PowerState;")
+             46: iconst_1
+             47: invokevirtual @48("com/srts/phaseI/test2/PowerState","toggleState","(I)V")
+             50: return
+             51: new @1("com/srts/phaseI/test2/PowerState")
+             54: dup
+             55: invokespecial @12("com/srts/phaseI/test2/PowerState","<init>","()V")
+             58: return
+             59: new @1("com/srts/phaseI/test2/PowerState")
+             62: dup
+             63: iconst_1
+             64: invokespecial @50("com/srts/phaseI/test2/PowerState","<init>","(Z)V")
+             67: return
+             68: return
+        exception table count=0
+        code attribute count=1
+            [0]: LocalVariableTable, localVar count=1
+                [0]: args, type=[Ljava/lang/String;, scope=[0..68], slot=0
+
+--------------------------------------------------- class attributes
+    class attribute count=1
+        [0]: SourceFile, path=PowerState.java
+State Model for: com.srts.phaseI.test2.PowerState
+----com.srts.phaseI.test2.PowerState.getPower()
+----com.srts.phaseI.test2.PowerState.toggleState(sym)
+----com.srts.phaseI.test2.PowerState.<init>()
+----com.srts.phaseI.test2.PowerState.<init>(sym)
+
+
+---------------Creating State Model for com.srts.phaseI.test2.PowerState---------------------
+
+
+	at java.lang.ClassLoader.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @171
+	at java.lang.Boolean.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @172
+	at java.lang.Boolean.<clinit>()V:11
+	 slots: 	      ----------- operand stack
+	    [0] @173
+	at java.lang.String.<clinit>()V:7
+	 slots: 	      ----------- operand stack
+	    [0] @188
+	at java.lang.Thread$State.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @189
+	at java.lang.Thread$State.<clinit>()V:13
+	 slots: 	      ----------- operand stack
+	    [0] @192
+	at java.lang.Thread$State.<clinit>()V:26
+	 slots: 	      ----------- operand stack
+	    [0] @195
+	at java.lang.Thread$State.<clinit>()V:39
+	 slots: 	      ----------- operand stack
+	    [0] @198
+	at java.lang.Thread$State.<clinit>()V:52
+	 slots: 	      ----------- operand stack
+	    [0] @201
+	at java.lang.Thread$State.<clinit>()V:65
+	 slots: 	      ----------- operand stack
+	    [0] @204
+	at java.lang.System.<clinit>()V:12
+	 slots: 	    [0] 0
+	    [1] 0
+	    [2] 0
+	    [3] 0
+	      ----------- operand stack
+	    [4] @229
+MethodInfo[java.lang.System.<clinit>()V]  4 234 4
+MethodInfo[java.lang.System.<clinit>()V]  4 235 4
+MethodInfo[java.lang.System.<clinit>()V]  4 237 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @235
+	    [2] @237
+	    [3] @233
+	    [4] 1989177436
+	    [5] 4
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 4
+	    [10] @281
+MethodInfo[java.lang.System.<clinit>()V]  4 239 4
+MethodInfo[java.lang.System.<clinit>()V]  4 241 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @239
+	    [2] @241
+	    [3] @233
+	    [4] 1985578347
+	    [5] 5
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 5
+	    [10] @282
+MethodInfo[java.lang.System.<clinit>()V]  4 243 4
+MethodInfo[java.lang.System.<clinit>()V]  4 245 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @243
+	    [2] @245
+	    [3] @233
+	    [4] 465797363
+	    [5] 9
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 9
+	    [10] @283
+MethodInfo[java.lang.System.<clinit>()V]  4 247 4
+MethodInfo[java.lang.System.<clinit>()V]  4 249 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @247
+	    [2] @249
+	    [3] @233
+	    [4] 294088398
+	    [5] 10
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 10
+	    [10] @284
+MethodInfo[java.lang.System.<clinit>()V]  4 251 4
+MethodInfo[java.lang.System.<clinit>()V]  4 253 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @251
+	    [2] @253
+	    [3] @233
+	    [4] -267617302
+	    [5] 6
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 6
+	    [10] @285
+MethodInfo[java.lang.System.<clinit>()V]  4 255 4
+MethodInfo[java.lang.System.<clinit>()V]  4 257 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @255
+	    [2] @257
+	    [3] @233
+	    [4] 640246460
+	    [5] 7
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 7
+	    [10] @286
+MethodInfo[java.lang.System.<clinit>()V]  4 259 4
+MethodInfo[java.lang.System.<clinit>()V]  4 261 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 286 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 286 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @259
+	    [2] @261
+	    [3] @233
+	    [4] -1309845389
+	    [5] 7
+	    [6] @286
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 7
+	    [10] @287
+MethodInfo[java.lang.System.<clinit>()V]  4 263 4
+MethodInfo[java.lang.System.<clinit>()V]  4 265 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @263
+	    [2] @265
+	    [3] @233
+	    [4] -888764117
+	    [5] 3
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 3
+	    [10] @288
+MethodInfo[java.lang.System.<clinit>()V]  4 267 4
+MethodInfo[java.lang.System.<clinit>()V]  4 269 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 287 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 286 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 233 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 289 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 284 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 284 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 283 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 283 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 287 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 287 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 286 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 286 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 285 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 285 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 282 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 282 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 281 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 281 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 288 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 288 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 289 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @267
+	    [2] @269
+	    [3] @289
+	    [4] 560567564
+	    [5] 18
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @289
+	    [9] 18
+	    [10] @290
+MethodInfo[java.lang.System.<clinit>()V]  4 271 4
+MethodInfo[java.lang.System.<clinit>()V]  4 273 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 289 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @271
+	    [2] @273
+	    [3] @289
+	    [4] 1370376743
+	    [5] 12
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @289
+	    [9] 12
+	    [10] @291
+	at java.lang.System.createJavaLangAccess()Lsun/misc/JavaLangAccess;:0
+	 slots: 	      ----------- operand stack
+	    [0] @298
+	at sun.misc.Unsafe.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @305
+	at com.srts.phaseI.test2.PowerState.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @306
+ByteCodeUtils.java:363 Initializing power:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+	at com.srts.phaseI.test2.PowerState.<clinit>()V:10
+	 slots: 	      ----------- operand stack
+	    [0] @307
+ByteCodeUtils.java:363 Initializing power:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:null
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:null
+CoverageAnalyzer.java!!! Instruction from non-supported method: nativereturn gov.nasa.jpf.jvm.Verify.getInt(II)I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:null
+ByteCodeUtils.java:363 Initializing power:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+Method entered to com.srts.phaseI.test2.PowerState.getPower()I
+39: invokevirtual com.srts.phaseI.test2.PowerState.getPower()I
+0: aload_0
+1: getfield
+4: ifeq 9
+4: ifeq 9
+7: iconst_1
+CoverageAnalyzer.java:245 Expression : CONST_1 type: -1
+====vars====
+--CONST_1
+=================
+CoverageAnalyzer.java:271 Expression : CONST_1 type: -1
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : power type: -1
+====vars====
+--power
+=================
+CoverageAnalyzer.java:271 Expression : power type: 0
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting PC: constraint # = 1 power != CONST_0
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.PowerState.getPower()I
+--aload_0
+--getfield
+--ifeq 9
+--iconst_1
+--ireturn com.srts.phaseI.test2.PowerState.getPower()I
+=================
+4: ifeq 9
+backtracked: ifeq 9 6
+9: iconst_0
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : power type: 0
+====vars====
+--power
+=================
+CoverageAnalyzer.java:271 Expression : power type: 0
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting PC: constraint # = 1 power == CONST_0
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.PowerState.getPower()I
+--aload_0
+--getfield
+--ifeq 9
+--iconst_0
+--ireturn com.srts.phaseI.test2.PowerState.getPower()I
+=================
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.PowerState.getPower()I]
+CoverageAnalyzer.java!!! Instruction from non-supported method: nativereturn gov.nasa.jpf.jvm.Verify.getInt(II)I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.PowerState.getPower()I]
+backtracked: tableswitch 6
+ByteCodeUtils.java:363 Initializing power:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+Method entered to com.srts.phaseI.test2.PowerState.toggleState(I)V
+47: invokevirtual com.srts.phaseI.test2.PowerState.toggleState(I)V
+0: iload_1
+1: iconst_2
+2: if_icmpne 21
+2: if_icmpne 21
+5: aload_0
+6: aload_0
+7: getfield
+10: ifeq 17
+10: ifeq 17
+13: iconst_0
+14: goto 18
+===COvAnalyzer===
+	at com.srts.phaseI.test2.PowerState.toggleState(I)V:18
+	 slots: 	    [0] @306  attr=com.srts.phaseI.test2.PowerState.staticThis
+	    [1] 1  attr=ctd_1_SYMINT
+	      ----------- operand stack
+	    [2] @306  attr=com.srts.phaseI.test2.PowerState.staticThis
+	    [3] 0  attr=null
+During putfield of power :CONST_0
+18: putfield
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : power type: -1
+====vars====
+--power
+=================
+CoverageAnalyzer.java:271 Expression : power type: 0
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : ctd_1_SYMINT type: -1
+====vars====
+--ctd_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : ctd_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_2 type: -1
+====vars====
+--CONST_2
+=================
+CoverageAnalyzer.java:271 Expression : CONST_2 type: -1
+Setting PC: constraint # = 2 power != CONST_0 && ctd_1_SYMINT == CONST_2
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.PowerState.toggleState(I)V
+--iload_1
+--iconst_2
+--if_icmpne 21
+--aload_0
+--aload_0
+--getfield
+--ifeq 17
+--iconst_0
+--goto 18
+--putfield
+--return  com.srts.phaseI.test2.PowerState.toggleState(I)V
+=================
+10: ifeq 17
+backtracked: ifeq 17 12
+17: iconst_1
+===COvAnalyzer===
+	at com.srts.phaseI.test2.PowerState.toggleState(I)V:18
+	 slots: 	    [0] @306  attr=com.srts.phaseI.test2.PowerState.staticThis
+	    [1] 1  attr=ctd_1_SYMINT
+	      ----------- operand stack
+	    [2] @306  attr=com.srts.phaseI.test2.PowerState.staticThis
+	    [3] 1  attr=null
+During putfield of power :CONST_1
+18: putfield
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : power type: 0
+====vars====
+--power
+=================
+CoverageAnalyzer.java:271 Expression : power type: 0
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : ctd_1_SYMINT type: 2
+====vars====
+--ctd_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : ctd_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_2 type: -1
+====vars====
+--CONST_2
+=================
+CoverageAnalyzer.java:271 Expression : CONST_2 type: -1
+Setting PC: constraint # = 2 power == CONST_0 && ctd_1_SYMINT == CONST_2
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.PowerState.toggleState(I)V
+--iload_1
+--iconst_2
+--if_icmpne 21
+--aload_0
+--aload_0
+--getfield
+--ifeq 17
+--iconst_1
+--putfield
+--return  com.srts.phaseI.test2.PowerState.toggleState(I)V
+=================
+2: if_icmpne 21
+backtracked: if_icmpne 21 11
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : ctd_1_SYMINT type: 2
+====vars====
+--ctd_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : ctd_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_2 type: -1
+====vars====
+--CONST_2
+=================
+CoverageAnalyzer.java:271 Expression : CONST_2 type: -1
+Setting PC: constraint # = 1 ctd_1_SYMINT != CONST_2
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.PowerState.toggleState(I)V
+--iload_1
+--iconst_2
+--if_icmpne 21
+--return  com.srts.phaseI.test2.PowerState.toggleState(I)V
+=================
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.PowerState.toggleState(I)V]
+CoverageAnalyzer.java!!! Instruction from non-supported method: nativereturn gov.nasa.jpf.jvm.Verify.getInt(II)I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.PowerState.toggleState(I)V]
+backtracked: tableswitch 5
+	at com.srts.phaseI.test2.PowerState.main([Ljava/lang/String;)V:51
+	 slots: 	    [0] @170
+	      ----------- operand stack
+	    [1] @233
+ByteCodeUtils.java:363 Initializing power:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+Method entered to com.srts.phaseI.test2.PowerState.<init>()V
+55: invokespecial com.srts.phaseI.test2.PowerState.<init>()V
+0: aload_0
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.PowerState.<init>()V is invoking java.lang.Object.<init>()V return type: 12
+--It is an superclass <init>
+InterObjectMethodInvocationListener.java:: It is an <init>...
+InterObjectMetodInvocationListener.java:86 subclasses:[java.lang.Object]
+For subclass: java.lang.Object
+--state model is not available. Assuming default state model.
+--getting transitions that can be triggered by the invoked method 
+-----Found: 1 from 0 to 1 event:null guard: null ret: null
+
+No of subClasses: 1
+Total no of choices: 1
+
+--choices: [[Lcom.srts.phaseI.statemodel.Transition;@174b989]
+---------IOMI Handling Completed---------
+1: invokespecial java.lang.Object.<init>()V
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.PowerState.<init>()V is invoking java.lang.Object.<init>()V return type: 12
+--It is an superclass <init>
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 0
+----Choice value to r,c: 0,0
+----Current transition: 1 from 0 to 1 event:java.lang.Object.<init>()V guard: null ret: null
+------Source State: 0
+------Target State: 1
+------Guard: null
+----Getting and removing arguments from the stack: 123558
+	at com.srts.phaseI.test2.PowerState.<init>()V:1
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+----NO Argument is there.
+----Obtaining and manipulating return value:205829414
+	at com.srts.phaseI.test2.PowerState.<init>()V:1
+	 slots: 	    [0] @233
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 205829414
+	at com.srts.phaseI.test2.PowerState.<init>()V:1
+	 slots: 	    [0] @233
+----Choice Generator Manipulation
+WARNING!!! GOUARD is not Constraint!! :null
+------Final PC:constraint # = 0
+----settiong final state: 1
+---------IOMI Handling Completed---------
+1: invokespecial java.lang.Object.<init>()V
+4: aload_0
+5: iconst_0
+===COvAnalyzer===
+	at com.srts.phaseI.test2.PowerState.<init>()V:6
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] 0
+During putfield of power :CONST_0
+6: putfield
+Setting Expression types in PC
+Setting PC: constraint # = 0
+====Setting insn seq====
+--invokespecial com.srts.phaseI.test2.PowerState.<init>()V
+--aload_0
+--invokespecial java.lang.Object.<init>()V
+--aload_0
+--iconst_0
+--putfield
+--return  com.srts.phaseI.test2.PowerState.<init>()V
+=================
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.PowerState.<init>()V]
+CoverageAnalyzer.java!!! Instruction from non-supported method: nativereturn gov.nasa.jpf.jvm.Verify.getInt(II)I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.PowerState.<init>()V]
+backtracked: tableswitch 7
+	at com.srts.phaseI.test2.PowerState.main([Ljava/lang/String;)V:59
+	 slots: 	    [0] @170
+	      ----------- operand stack
+	    [1] @233
+ByteCodeUtils.java:363 Initializing power:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+Method entered to com.srts.phaseI.test2.PowerState.<init>(Z)V
+64: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+0: aload_0
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.PowerState.<init>(Z)V is invoking java.lang.Object.<init>()V return type: 12
+--It is an superclass <init>
+InterObjectMethodInvocationListener.java:: It is an <init>...
+InterObjectMetodInvocationListener.java:86 subclasses:[java.lang.Object]
+For subclass: java.lang.Object
+--state model is not available. Assuming default state model.
+--getting transitions that can be triggered by the invoked method 
+-----Found: 1 from 0 to 1 event:null guard: null ret: null
+
+No of subClasses: 1
+Total no of choices: 1
+
+--choices: [[Lcom.srts.phaseI.statemodel.Transition;@1930089]
+---------IOMI Handling Completed---------
+1: invokespecial java.lang.Object.<init>()V
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.PowerState.<init>(Z)V is invoking java.lang.Object.<init>()V return type: 12
+--It is an superclass <init>
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 0
+----Choice value to r,c: 0,0
+----Current transition: 1 from 0 to 1 event:java.lang.Object.<init>()V guard: null ret: null
+------Source State: 0
+------Target State: 1
+------Guard: null
+----Getting and removing arguments from the stack: 218094640
+	at com.srts.phaseI.test2.PowerState.<init>(Z)V:1
+	 slots: 	    [0] @233  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	      ----------- operand stack
+	    [2] @233  attr=null
+----NO Argument is there.
+----Obtaining and manipulating return value:109047297
+	at com.srts.phaseI.test2.PowerState.<init>(Z)V:1
+	 slots: 	    [0] @233  attr=null
+	    [1] 1  attr=p_1_SYMINT
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 109047297
+	at com.srts.phaseI.test2.PowerState.<init>(Z)V:1
+	 slots: 	    [0] @233  attr=null
+	    [1] 1  attr=p_1_SYMINT
+----Choice Generator Manipulation
+WARNING!!! GOUARD is not Constraint!! :null
+------Final PC:constraint # = 0
+----settiong final state: 1
+---------IOMI Handling Completed---------
+1: invokespecial java.lang.Object.<init>()V
+4: iload_1
+5: ifeq 16
+5: ifeq 16
+8: aload_0
+9: iload_1
+===COvAnalyzer===
+	at com.srts.phaseI.test2.PowerState.<init>(Z)V:10
+	 slots: 	    [0] @233  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	      ----------- operand stack
+	    [2] @233  attr=null
+	    [3] 1  attr=p_1_SYMINT
+During putfield of power :p_1_SYMINT
+10: putfield
+13: goto 29
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: -1
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting PC: constraint # = 1 p_1_SYMINT != CONST_0
+====Setting insn seq====
+--invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+--aload_0
+--invokespecial java.lang.Object.<init>()V
+--iload_1
+--ifeq 16
+--aload_0
+--iload_1
+--putfield
+--goto 29
+--return  com.srts.phaseI.test2.PowerState.<init>(Z)V
+=================
+5: ifeq 16
+backtracked: ifeq 16 10
+16: aload_0
+17: iload_1
+18: ifeq 25
+18: ifeq 25
+21: iconst_0
+22: goto 26
+===COvAnalyzer===
+	at com.srts.phaseI.test2.PowerState.<init>(Z)V:26
+	 slots: 	    [0] @233  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	      ----------- operand stack
+	    [2] @233  attr=null
+	    [3] 0  attr=null
+During putfield of power :CONST_0
+26: putfield
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: 2
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: 2
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting PC: constraint # = 2 p_1_SYMINT != CONST_0 && p_1_SYMINT == CONST_0
+====Setting insn seq====
+--invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+--aload_0
+--invokespecial java.lang.Object.<init>()V
+--iload_1
+--ifeq 16
+--aload_0
+--iload_1
+--ifeq 25
+--iconst_0
+--goto 26
+--putfield
+--return  com.srts.phaseI.test2.PowerState.<init>(Z)V
+=================
+18: ifeq 25
+backtracked: ifeq 25 12
+25: iconst_1
+===COvAnalyzer===
+	at com.srts.phaseI.test2.PowerState.<init>(Z)V:26
+	 slots: 	    [0] @233  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	      ----------- operand stack
+	    [2] @233  attr=null
+	    [3] 1  attr=null
+During putfield of power :CONST_1
+26: putfield
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: 2
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting PC: constraint # = 1 p_1_SYMINT == CONST_0
+====Setting insn seq====
+--invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+--aload_0
+--invokespecial java.lang.Object.<init>()V
+--iload_1
+--ifeq 16
+--aload_0
+--iload_1
+--ifeq 25
+--iconst_1
+--putfield
+--return  com.srts.phaseI.test2.PowerState.<init>(Z)V
+=================
+1: constraint # = 2 power != CONST_0 && ctd_1_SYMINT == CONST_2
+method: com.srts.phaseI.test2.PowerState.toggleState(I)V
+      0: iload_1
+      1: iconst_2
+      2: if_icmpne 21
+      5: aload_0
+      6: aload_0
+      7: getfield
+      10: ifeq 17
+      13: iconst_0
+      14: goto 18
+      18: putfield
+      21: return  com.srts.phaseI.test2.PowerState.toggleState(I)V
+returned Expression: null
+VSM: updated:true
+power=CONST_0 updated by:18 putfield of com.srts.phaseI.test2.PowerState.toggleState(I)V
+2: constraint # = 1 p_1_SYMINT == CONST_0
+method: com.srts.phaseI.test2.PowerState.<init>(Z)V
+      0: aload_0
+      1: invokespecial java.lang.Object.<init>()V
+      4: iload_1
+      5: ifeq 16
+      16: aload_0
+      17: iload_1
+      18: ifeq 25
+      25: iconst_1
+      26: putfield
+      29: return  com.srts.phaseI.test2.PowerState.<init>(Z)V
+returned Expression: null
+VSM: updated:true
+power=CONST_1 updated by:26 putfield of com.srts.phaseI.test2.PowerState.<init>(Z)V
+3: constraint # = 2 power == CONST_0 && ctd_1_SYMINT == CONST_2
+method: com.srts.phaseI.test2.PowerState.toggleState(I)V
+      0: iload_1
+      1: iconst_2
+      2: if_icmpne 21
+      5: aload_0
+      6: aload_0
+      7: getfield
+      10: ifeq 17
+      17: iconst_1
+      18: putfield
+      21: return  com.srts.phaseI.test2.PowerState.toggleState(I)V
+returned Expression: null
+VSM: updated:true
+power=CONST_1 updated by:18 putfield of com.srts.phaseI.test2.PowerState.toggleState(I)V
+4: constraint # = 1 ctd_1_SYMINT != CONST_2
+method: com.srts.phaseI.test2.PowerState.toggleState(I)V
+      0: iload_1
+      1: iconst_2
+      2: if_icmpne 21
+      21: return  com.srts.phaseI.test2.PowerState.toggleState(I)V
+returned Expression: null
+VSM: updated:false
+5: constraint # = 0
+method: com.srts.phaseI.test2.PowerState.<init>()V
+      0: aload_0
+      1: invokespecial java.lang.Object.<init>()V
+      4: aload_0
+      5: iconst_0
+      6: putfield
+      9: return  com.srts.phaseI.test2.PowerState.<init>()V
+returned Expression: null
+VSM: updated:true
+power=CONST_0 updated by:6 putfield of com.srts.phaseI.test2.PowerState.<init>()V
+6: constraint # = 1 power != CONST_0
+method: com.srts.phaseI.test2.PowerState.getPower()I
+      0: aload_0
+      1: getfield
+      4: ifeq 9
+      7: iconst_1
+      8: ireturn com.srts.phaseI.test2.PowerState.getPower()I
+returned Expression: CONST_1
+VSM: updated:false
+7: constraint # = 1 power == CONST_0
+method: com.srts.phaseI.test2.PowerState.getPower()I
+      0: aload_0
+      1: getfield
+      4: ifeq 9
+      9: iconst_0
+      10: ireturn com.srts.phaseI.test2.PowerState.getPower()I
+returned Expression: CONST_0
+VSM: updated:false
+8: constraint # = 2 p_1_SYMINT != CONST_0 && p_1_SYMINT == CONST_0
+Path should be removed. Path Condition is not satisfiable.
+9: constraint # = 1 p_1_SYMINT != CONST_0
+method: com.srts.phaseI.test2.PowerState.<init>(Z)V
+      0: aload_0
+      1: invokespecial java.lang.Object.<init>()V
+      4: iload_1
+      5: ifeq 16
+      8: aload_0
+      9: iload_1
+      10: putfield
+      13: goto 29
+      29: return  com.srts.phaseI.test2.PowerState.<init>(Z)V
+returned Expression: null
+VSM: updated:true
+power=p_1_SYMINT updated by:10 putfield of com.srts.phaseI.test2.PowerState.<init>(Z)V
+====MDLs====
+--power != CONST_0
+=================
+StateModelBuilder.java: Removing unsat object constraints...
+--Added: [power != CONST_0]
+--Added: [power == CONST_0]
+power != CONST_0 is satisfiable: true
+====Adding state with following condition:====
+--power != CONST_0
+=================
+power == CONST_0 is satisfiable: true
+====Adding state with following condition:====
+--power == CONST_0
+=================
+
+
+Analysis of Path: 1 pc: constraint # = 2 power != CONST_0 && ctd_1_SYMINT == CONST_2 Constructor: false
+pdl: ctd_1_SYMINT == CONST_2 mdl:power != CONST_0
+
+State id:1 cond:power != CONST_0
+Pre state matched to q1
+-- got this expression map from vsm: {power=CONST_0}
+State.java:149 CONST_0 != CONST_0 && power != CONST_0 && ctd_1_SYMINT == CONST_2 && power != CONST_0 is NOT satisfiable!
+-- got this expression map from vsm: {power=CONST_0}
+State.java:143 CONST_0 == CONST_0 && power != CONST_0 && ctd_1_SYMINT == CONST_2 && power != CONST_0 is satisfiable!
+--post state matched with q2
+Transition Created: 1 from 1 to 2 event:com.srts.phaseI.test2.PowerState.toggleState(I)V guard: ctd_1_SYMINT == CONST_2 ret: null
+
+State id:-1 cond:null
+
+State id:0 cond:null
+
+State id:2 cond:power == CONST_0
+
+
+Analysis of Path: 2 pc: constraint # = 1 p_1_SYMINT == CONST_0 Constructor: true
+pdl: p_1_SYMINT == CONST_0 mdl:null
+
+State id:1 cond:power != CONST_0
+Pre state matched to q1
+-- got this expression map from vsm: {power=CONST_1}
+State.java:143 CONST_1 != CONST_0 && p_1_SYMINT == CONST_0 is satisfiable!
+--post state matched with q1
+Transition Created: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+-- got this expression map from vsm: {power=CONST_1}
+State.java:149 CONST_1 == CONST_0 && p_1_SYMINT == CONST_0 is NOT satisfiable!
+
+
+Analysis of Path: 3 pc: constraint # = 2 power == CONST_0 && ctd_1_SYMINT == CONST_2 Constructor: false
+pdl: ctd_1_SYMINT == CONST_2 mdl:power == CONST_0
+
+State id:1 cond:power != CONST_0
+
+State id:-1 cond:null
+
+State id:0 cond:null
+
+State id:2 cond:power == CONST_0
+Pre state matched to q2
+-- got this expression map from vsm: {power=CONST_1}
+State.java:143 CONST_1 != CONST_0 && power == CONST_0 && ctd_1_SYMINT == CONST_2 && power == CONST_0 is satisfiable!
+--post state matched with q1
+Transition Created: 3 from 2 to 1 event:com.srts.phaseI.test2.PowerState.toggleState(I)V guard: ctd_1_SYMINT == CONST_2 ret: null
+-- got this expression map from vsm: {power=CONST_1}
+State.java:149 CONST_1 == CONST_0 && power == CONST_0 && ctd_1_SYMINT == CONST_2 && power == CONST_0 is NOT satisfiable!
+
+
+Analysis of Path: 4 pc: constraint # = 1 ctd_1_SYMINT != CONST_2 Constructor: false
+pdl: ctd_1_SYMINT != CONST_2 mdl:null
+
+State id:1 cond:power != CONST_0
+Pre state matched to q1
+-- got this expression map from vsm: {}
+State.java:143 power != CONST_0 && ctd_1_SYMINT != CONST_2 && power != CONST_0 is satisfiable!
+--post state matched with q1
+Transition Created: 4 from 1 to 1 event:com.srts.phaseI.test2.PowerState.toggleState(I)V guard: ctd_1_SYMINT != CONST_2 ret: null
+-- got this expression map from vsm: {}
+State.java:149 power == CONST_0 && ctd_1_SYMINT != CONST_2 && power != CONST_0 is NOT satisfiable!
+
+State id:-1 cond:null
+
+State id:0 cond:null
+
+State id:2 cond:power == CONST_0
+Pre state matched to q2
+-- got this expression map from vsm: {}
+State.java:149 power != CONST_0 && ctd_1_SYMINT != CONST_2 && power == CONST_0 is NOT satisfiable!
+-- got this expression map from vsm: {}
+State.java:143 power == CONST_0 && ctd_1_SYMINT != CONST_2 && power == CONST_0 is satisfiable!
+--post state matched with q2
+Transition Created: 5 from 2 to 2 event:com.srts.phaseI.test2.PowerState.toggleState(I)V guard: ctd_1_SYMINT != CONST_2 ret: null
+
+
+Analysis of Path: 5 pc: constraint # = 0 Constructor: true
+pdl: null mdl:null
+
+State id:1 cond:power != CONST_0
+Pre state matched to q1
+-- got this expression map from vsm: {power=CONST_0}
+State.java:149 CONST_0 != CONST_0 is NOT satisfiable!
+-- got this expression map from vsm: {power=CONST_0}
+State.java:143 CONST_0 == CONST_0 is satisfiable!
+--post state matched with q2
+Transition Created: 6 from 0 to 2 event:com.srts.phaseI.test2.PowerState.<init>()V guard: null ret: null
+
+
+Analysis of Path: 6 pc: constraint # = 1 power != CONST_0 Constructor: false
+pdl: null mdl:power != CONST_0
+
+State id:1 cond:power != CONST_0
+Pre state matched to q1
+-- got this expression map from vsm: {}
+State.java:143 power != CONST_0 && power != CONST_0 && power != CONST_0 is satisfiable!
+--post state matched with q1
+Transition Created: 7 from 1 to 1 event:com.srts.phaseI.test2.PowerState.getPower()I guard: null ret: CONST_1
+-- got this expression map from vsm: {}
+State.java:149 power == CONST_0 && power != CONST_0 && power != CONST_0 is NOT satisfiable!
+
+State id:-1 cond:null
+
+State id:0 cond:null
+
+State id:2 cond:power == CONST_0
+
+
+Analysis of Path: 7 pc: constraint # = 1 power == CONST_0 Constructor: false
+pdl: null mdl:power == CONST_0
+
+State id:1 cond:power != CONST_0
+
+State id:-1 cond:null
+
+State id:0 cond:null
+
+State id:2 cond:power == CONST_0
+Pre state matched to q2
+-- got this expression map from vsm: {}
+State.java:149 power != CONST_0 && power == CONST_0 && power == CONST_0 is NOT satisfiable!
+-- got this expression map from vsm: {}
+State.java:143 power == CONST_0 && power == CONST_0 && power == CONST_0 is satisfiable!
+--post state matched with q2
+Transition Created: 8 from 2 to 2 event:com.srts.phaseI.test2.PowerState.getPower()I guard: null ret: CONST_0
+
+
+Analysis of Path: 8 pc: constraint # = 2 p_1_SYMINT != CONST_0 && p_1_SYMINT == CONST_0 Constructor: true
+Path condition is not satisfiable!
+
+
+Analysis of Path: 9 pc: constraint # = 1 p_1_SYMINT != CONST_0 Constructor: true
+pdl: p_1_SYMINT != CONST_0 mdl:null
+
+State id:1 cond:power != CONST_0
+Pre state matched to q1
+-- got this expression map from vsm: {power=p_1_SYMINT}
+State.java:143 p_1_SYMINT != CONST_0 && p_1_SYMINT != CONST_0 is satisfiable!
+--post state matched with q1
+Transition Created: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+-- got this expression map from vsm: {power=p_1_SYMINT}
+State.java:149 p_1_SYMINT == CONST_0 && p_1_SYMINT != CONST_0 is NOT satisfiable!
+===============State Model Summary==============
+# States: 4
+# Transitions: 9
+================================================
+Minimized No of Transitions: 8
+--------------------------------------------------- constpool
+  [1]: constant_class {name=#2("com/srts/phaseI/test2/Television")}
+  [2]: constant_utf8 {"com/srts/phaseI/test2/Television"}
+  [3]: constant_class {name=#4("java/lang/Object")}
+  [4]: constant_utf8 {"java/lang/Object"}
+  [5]: constant_utf8 {"p"}
+  [6]: constant_utf8 {"Z"}
+  [7]: constant_utf8 {"ps"}
+  [8]: constant_utf8 {"Lcom/srts/phaseI/test2/PowerState;"}
+  [9]: constant_utf8 {"volume"}
+  [10]: constant_utf8 {"I"}
+  [11]: constant_utf8 {"channel"}
+  [12]: constant_utf8 {"<init>"}
+  [13]: constant_utf8 {"()V"}
+  [14]: constant_utf8 {"Code"}
+  [15]: methodref {class=#3("java/lang/Object"),nameType=#16("<init>","()V")}
+  [16]: name_and_type {name=#12("<init>"),desciptor=#13("()V")}
+  [17]: constant_class {name=#18("com/srts/phaseI/test2/PowerState")}
+  [18]: constant_utf8 {"com/srts/phaseI/test2/PowerState"}
+  [19]: fieldref {class=#1("com/srts/phaseI/test2/Television"),nameType=#20("p","Z")}
+  [20]: name_and_type {name=#5("p"),desciptor=#6("Z")}
+  [21]: methodref {class=#17("com/srts/phaseI/test2/PowerState"),nameType=#22("<init>","(Z)V")}
+  [22]: name_and_type {name=#12("<init>"),desciptor=#23("(Z)V")}
+  [23]: constant_utf8 {"(Z)V"}
+  [24]: fieldref {class=#1("com/srts/phaseI/test2/Television"),nameType=#25("ps","Lcom/srts/phaseI/test2/PowerState;")}
+  [25]: name_and_type {name=#7("ps"),desciptor=#8("Lcom/srts/phaseI/test2/PowerState;")}
+  [26]: fieldref {class=#1("com/srts/phaseI/test2/Television"),nameType=#27("volume","I")}
+  [27]: name_and_type {name=#9("volume"),desciptor=#10("I")}
+  [28]: fieldref {class=#1("com/srts/phaseI/test2/Television"),nameType=#29("channel","I")}
+  [29]: name_and_type {name=#11("channel"),desciptor=#10("I")}
+  [30]: constant_utf8 {"LineNumberTable"}
+  [31]: constant_utf8 {"LocalVariableTable"}
+  [32]: constant_utf8 {"this"}
+  [33]: constant_utf8 {"Lcom/srts/phaseI/test2/Television;"}
+  [34]: constant_utf8 {"doCall"}
+  [35]: constant_utf8 {"(II)V"}
+  [36]: constant_utf8 {"q"}
+  [37]: constant_utf8 {"StackMapTable"}
+  [38]: constant_utf8 {"SourceFile"}
+  [39]: constant_utf8 {"Television.java"}
+  [40]: constant_utf8 {"staticThis"}
+  [41]: constant_utf8 {"$state"}
+  [42]: constant_utf8 {"Ljava/lang/String;"}
+  [43]: methodref {class=#1("com/srts/phaseI/test2/Television"),nameType=#16("<init>","()V")}
+  [44]: name_and_type {name=#40("staticThis"),desciptor=#33("Lcom/srts/phaseI/test2/Television;")}
+  [45]: fieldref {class=#1("com/srts/phaseI/test2/Television"),nameType=#44("staticThis","Lcom/srts/phaseI/test2/Television;")}
+  [46]: constant_utf8 {"<clinit>"}
+  [47]: constant_utf8 {"getInt"}
+  [48]: constant_utf8 {"(II)I"}
+  [49]: name_and_type {name=#47("getInt"),desciptor=#48("(II)I")}
+  [50]: constant_utf8 {"gov/nasa/jpf/jvm/Verify"}
+  [51]: constant_class {name=#50("gov/nasa/jpf/jvm/Verify")}
+  [52]: methodref {class=#51("gov/nasa/jpf/jvm/Verify"),nameType=#49("getInt","(II)I")}
+  [53]: name_and_type {name=#34("doCall"),desciptor=#35("(II)V")}
+  [54]: methodref {class=#1("com/srts/phaseI/test2/Television"),nameType=#53("doCall","(II)V")}
+  [55]: constant_utf8 {"main"}
+  [56]: constant_utf8 {"([Ljava/lang/String;)V"}
+  [57]: constant_utf8 {"args"}
+  [58]: constant_utf8 {"[Ljava/lang/String;"}
+
+--------------------------------------------------- class
+    class=com/srts/phaseI/test2/Television
+    superclass=java/lang/Object
+    flags=0x20
+    interface count=0
+--------------------------------------------------- fields
+    field count=6
+    [0]: p, type=Z,flags=0x0, attr count=0
+
+    [1]: ps, type=Lcom/srts/phaseI/test2/PowerState;,flags=0x2, attr count=0
+
+    [2]: volume, type=I,flags=0x2, attr count=0
+
+    [3]: channel, type=I,flags=0x2, attr count=0
+
+    [4]: staticThis, type=Lcom/srts/phaseI/test2/Television;,flags=0xA, attr count=0
+
+    [5]: $state, type=Ljava/lang/String;,flags=0x1, attr count=0
+
+--------------------------------------------------- methods
+    method count=4
+    [0]: <init>()V, flags=0x1, attr count=1
+        [0]: Code, maxStack=4,maxLocals=1,length=50
+              0: aload_0
+              1: invokespecial @15("java/lang/Object","<init>","()V")
+              4: aload_0
+              5: iconst_0
+              6: putfield @19("com/srts/phaseI/test2/Television","p","Z")
+              9: aload_0
+             10: aconst_null
+             11: putfield @24("com/srts/phaseI/test2/Television","ps","Lcom/srts/phaseI/test2/PowerState;")
+             14: aload_0
+             15: iconst_0
+             16: putfield @26("com/srts/phaseI/test2/Television","volume","I")
+             19: aload_0
+             20: iconst_0
+             21: putfield @28("com/srts/phaseI/test2/Television","channel","I")
+             24: aload_0
+             25: new @17("com/srts/phaseI/test2/PowerState")
+             28: dup
+             29: aload_0
+             30: getfield @19("com/srts/phaseI/test2/Television","p","Z")
+             33: invokespecial @21("com/srts/phaseI/test2/PowerState","<init>","(Z)V")
+             36: putfield @24("com/srts/phaseI/test2/Television","ps","Lcom/srts/phaseI/test2/PowerState;")
+             39: aload_0
+             40: iconst_0
+             41: putfield @26("com/srts/phaseI/test2/Television","volume","I")
+             44: aload_0
+             45: iconst_0
+             46: putfield @28("com/srts/phaseI/test2/Television","channel","I")
+             49: return
+        exception table count=0
+        code attribute count=2
+            [0]: LocalVariableTable, localVar count=1
+                [0]: this, type=Lcom/srts/phaseI/test2/Television;, scope=[0..49], slot=0
+            [1]: LineNumberTable, linenumber count=4
+                [0]: line=9, pc=0
+                [1]: line=6, pc=24
+                [2]: line=7, pc=39
+                [3]: line=9, pc=49
+
+    [1]: doCall(II)V, flags=0x1, attr count=1
+        [0]: Code, maxStack=4,maxLocals=4,length=32
+              0: iload_1
+              1: iconst_1
+              2: if_icmpne +29 (31)
+              5: aload_0
+              6: iconst_1
+              7: putfield @26("com/srts/phaseI/test2/Television","volume","I")
+             10: new @17("com/srts/phaseI/test2/PowerState")
+             13: dup
+             14: iload_1
+             15: iload_2
+             16: iadd
+             17: bipush 8
+             19: if_icmpne +7 (26)
+             22: iconst_1
+             23: goto +4 (27)
+             26: iconst_0
+             27: invokespecial @21("com/srts/phaseI/test2/PowerState","<init>","(Z)V")
+             30: astore_3
+             31: return
+        exception table count=0
+        code attribute count=3
+            [0]: LineNumberTable, linenumber count=4
+                [0]: line=14, pc=0
+                [1]: line=15, pc=5
+                [2]: line=16, pc=10
+                [3]: line=19, pc=31
+            [1]: LocalVariableTable, localVar count=3
+                [0]: this, type=Lcom/srts/phaseI/test2/Television;, scope=[0..31], slot=0
+                [1]: p, type=I, scope=[0..31], slot=1
+                [2]: q, type=I, scope=[0..31], slot=2
+            [2]: StackMapTable ,length=40,data=[00 03 ff 00 1a 00 03 07 00 01..]
+
+    [2]: <clinit>()V, flags=0x8, attr count=1
+        [0]: Code, maxStack=2,maxLocals=0,length=11
+              0: new @1("com/srts/phaseI/test2/Television")
+              3: dup
+              4: invokespecial @43("com/srts/phaseI/test2/Television","<init>","()V")
+              7: putstatic @45("com/srts/phaseI/test2/Television","staticThis","Lcom/srts/phaseI/test2/Television;")
+             10: return
+        exception table count=0
+        code attribute count=0
+
+    [3]: main([Ljava/lang/String;)V, flags=0x9, attr count=1
+        [0]: Code, maxStack=3,maxLocals=1,length=46
+              0: iconst_0
+              1: iconst_1
+              2: invokestatic @52("gov/nasa/jpf/jvm/Verify","getInt","(II)I")
+              5: tableswitch [0..1] default: +40
+                  0: +23 (28)
+                  1: +31 (36)
+             28: new @1("com/srts/phaseI/test2/Television")
+             31: dup
+             32: invokespecial @43("com/srts/phaseI/test2/Television","<init>","()V")
+             35: return
+             36: getstatic @45("com/srts/phaseI/test2/Television","staticThis","Lcom/srts/phaseI/test2/Television;")
+             39: iconst_1
+             40: iconst_1
+             41: invokevirtual @54("com/srts/phaseI/test2/Television","doCall","(II)V")
+             44: return
+             45: return
+        exception table count=0
+        code attribute count=1
+            [0]: LocalVariableTable, localVar count=1
+                [0]: args, type=[Ljava/lang/String;, scope=[0..45], slot=0
+
+--------------------------------------------------- class attributes
+    class attribute count=1
+        [0]: SourceFile, path=Television.java
+State Model for: com.srts.phaseI.test2.Television
+----com.srts.phaseI.test2.Television.<init>()
+----com.srts.phaseI.test2.Television.doCall(sym#sym)
+
+
+---------------Creating State Model for com.srts.phaseI.test2.Television---------------------
+
+
+	at java.lang.ClassLoader.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @171
+	at java.lang.Boolean.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @172
+	at java.lang.Boolean.<clinit>()V:11
+	 slots: 	      ----------- operand stack
+	    [0] @173
+	at java.lang.String.<clinit>()V:7
+	 slots: 	      ----------- operand stack
+	    [0] @188
+	at java.lang.Thread$State.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @189
+	at java.lang.Thread$State.<clinit>()V:13
+	 slots: 	      ----------- operand stack
+	    [0] @192
+	at java.lang.Thread$State.<clinit>()V:26
+	 slots: 	      ----------- operand stack
+	    [0] @195
+	at java.lang.Thread$State.<clinit>()V:39
+	 slots: 	      ----------- operand stack
+	    [0] @198
+	at java.lang.Thread$State.<clinit>()V:52
+	 slots: 	      ----------- operand stack
+	    [0] @201
+	at java.lang.Thread$State.<clinit>()V:65
+	 slots: 	      ----------- operand stack
+	    [0] @204
+	at java.lang.System.<clinit>()V:12
+	 slots: 	    [0] 0
+	    [1] 0
+	    [2] 0
+	    [3] 0
+	      ----------- operand stack
+	    [4] @229
+MethodInfo[java.lang.System.<clinit>()V]  4 234 4
+MethodInfo[java.lang.System.<clinit>()V]  4 235 4
+MethodInfo[java.lang.System.<clinit>()V]  4 237 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @235
+	    [2] @237
+	    [3] @233
+	    [4] 1989177436
+	    [5] 4
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 4
+	    [10] @281
+MethodInfo[java.lang.System.<clinit>()V]  4 239 4
+MethodInfo[java.lang.System.<clinit>()V]  4 241 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @239
+	    [2] @241
+	    [3] @233
+	    [4] 1985578347
+	    [5] 5
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 5
+	    [10] @282
+MethodInfo[java.lang.System.<clinit>()V]  4 243 4
+MethodInfo[java.lang.System.<clinit>()V]  4 245 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @243
+	    [2] @245
+	    [3] @233
+	    [4] 465797363
+	    [5] 9
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 9
+	    [10] @283
+MethodInfo[java.lang.System.<clinit>()V]  4 247 4
+MethodInfo[java.lang.System.<clinit>()V]  4 249 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @247
+	    [2] @249
+	    [3] @233
+	    [4] 294088398
+	    [5] 10
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 10
+	    [10] @284
+MethodInfo[java.lang.System.<clinit>()V]  4 251 4
+MethodInfo[java.lang.System.<clinit>()V]  4 253 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @251
+	    [2] @253
+	    [3] @233
+	    [4] -267617302
+	    [5] 6
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 6
+	    [10] @285
+MethodInfo[java.lang.System.<clinit>()V]  4 255 4
+MethodInfo[java.lang.System.<clinit>()V]  4 257 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @255
+	    [2] @257
+	    [3] @233
+	    [4] 640246460
+	    [5] 7
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 7
+	    [10] @286
+MethodInfo[java.lang.System.<clinit>()V]  4 259 4
+MethodInfo[java.lang.System.<clinit>()V]  4 261 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 286 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 286 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @259
+	    [2] @261
+	    [3] @233
+	    [4] -1309845389
+	    [5] 7
+	    [6] @286
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 7
+	    [10] @287
+MethodInfo[java.lang.System.<clinit>()V]  4 263 4
+MethodInfo[java.lang.System.<clinit>()V]  4 265 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @263
+	    [2] @265
+	    [3] @233
+	    [4] -888764117
+	    [5] 3
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @233
+	    [9] 3
+	    [10] @288
+MethodInfo[java.lang.System.<clinit>()V]  4 267 4
+MethodInfo[java.lang.System.<clinit>()V]  4 269 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 233 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 287 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 286 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 233 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 289 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 284 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 284 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 283 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 283 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 287 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 287 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 286 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 286 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 285 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 285 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 282 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 282 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 281 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 281 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 288 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 288 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.rehash()V]  9 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 289 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @267
+	    [2] @269
+	    [3] @289
+	    [4] 560567564
+	    [5] 18
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @289
+	    [9] 18
+	    [10] @290
+MethodInfo[java.lang.System.<clinit>()V]  4 271 4
+MethodInfo[java.lang.System.<clinit>()V]  4 273 4
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 289 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+MethodInfo[java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;]  8 -1 0
+	at java.util.Hashtable.put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;:141
+	 slots: 	    [0] @229
+	    [1] @271
+	    [2] @273
+	    [3] @289
+	    [4] 1370376743
+	    [5] 12
+	    [6] @-1
+	    [7] 0
+	      ----------- operand stack
+	    [8] @289
+	    [9] 12
+	    [10] @291
+	at java.lang.System.createJavaLangAccess()Lsun/misc/JavaLangAccess;:0
+	 slots: 	      ----------- operand stack
+	    [0] @298
+	at sun.misc.Unsafe.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @305
+	at com.srts.phaseI.test2.Television.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @306
+ByteCodeUtils.java:363 Initializing p:false
+ByteCodeUtils.java:363 Initializing ps:true
+Helper.java:47 setting ps
+ByteCodeUtils.java:363 Initializing volume:false
+ByteCodeUtils.java:363 Initializing channel:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+	at com.srts.phaseI.test2.PowerState.<clinit>()V:0
+	 slots: 	      ----------- operand stack
+	    [0] @310
+	at com.srts.phaseI.test2.PowerState.<clinit>()V:10
+	 slots: 	      ----------- operand stack
+	    [0] @311
+	at com.srts.phaseI.test2.Television.<init>()V:25
+	 slots: 	    [0] @306
+	      ----------- operand stack
+	    [1] @306
+	    [2] @312
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:null
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:null
+CoverageAnalyzer.java!!! Instruction from non-supported method: nativereturn gov.nasa.jpf.jvm.Verify.getInt(II)I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:null
+	at com.srts.phaseI.test2.Television.main([Ljava/lang/String;)V:28
+	 slots: 	    [0] @170
+	      ----------- operand stack
+	    [1] @233
+ByteCodeUtils.java:363 Initializing p:false
+ByteCodeUtils.java:363 Initializing ps:true
+Helper.java:47 setting ps
+ByteCodeUtils.java:363 Initializing volume:false
+ByteCodeUtils.java:363 Initializing channel:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+Method entered to com.srts.phaseI.test2.Television.<init>()V
+32: invokespecial com.srts.phaseI.test2.Television.<init>()V
+0: aload_0
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.Television refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.<init>()V is invoking java.lang.Object.<init>()V return type: 12
+--It is an superclass <init>
+InterObjectMethodInvocationListener.java:: It is an <init>...
+InterObjectMetodInvocationListener.java:86 subclasses:[java.lang.Object]
+For subclass: java.lang.Object
+--state model is not available. Assuming default state model.
+--getting transitions that can be triggered by the invoked method 
+-----Found: 1 from 0 to 1 event:null guard: null ret: null
+
+No of subClasses: 1
+Total no of choices: 1
+
+--choices: [[Lcom.srts.phaseI.statemodel.Transition;@d101f3]
+---------IOMI Handling Completed---------
+1: invokespecial java.lang.Object.<init>()V
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.Television refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.<init>()V is invoking java.lang.Object.<init>()V return type: 12
+--It is an superclass <init>
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 0
+----Choice value to r,c: 0,0
+----Current transition: 1 from 0 to 1 event:java.lang.Object.<init>()V guard: null ret: null
+------Source State: 0
+------Target State: 1
+------Guard: null
+----Getting and removing arguments from the stack: 6002427
+	at com.srts.phaseI.test2.Television.<init>()V:1
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+----NO Argument is there.
+----Obtaining and manipulating return value:208244480
+	at com.srts.phaseI.test2.Television.<init>()V:1
+	 slots: 	    [0] @233
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 208244480
+	at com.srts.phaseI.test2.Television.<init>()V:1
+	 slots: 	    [0] @233
+----Choice Generator Manipulation
+WARNING!!! GOUARD is not Constraint!! :null
+------Final PC:constraint # = 0
+----settiong final state: 1
+---------IOMI Handling Completed---------
+1: invokespecial java.lang.Object.<init>()V
+4: aload_0
+5: iconst_0
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:6
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] 0
+During putfield of p :CONST_0
+6: putfield
+9: aload_0
+10: aconst_null
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:11
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @-1
+During putfield of ps :ps(null,null)
+11: putfield
+14: aload_0
+15: iconst_0
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:16
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] 0
+During putfield of volume :CONST_0
+16: putfield
+19: aload_0
+20: iconst_0
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:21
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] 0
+During putfield of channel :CONST_0
+21: putfield
+24: aload_0
+	at com.srts.phaseI.test2.Television.<init>()V:25
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+25: new com.srts.phaseI.test2.PowerState@13d
+28: dup
+29: aload_0
+30: getfield
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.<init>()V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+InterObjectMetodInvocationListener.java:86 subclasses:[com.srts.phaseI.test2.PowerState]
+For subclass: com.srts.phaseI.test2.PowerState
+--getting transitions that can be triggered by the invoked method 
+-----Found: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+-----Found: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+
+No of subClasses: 1
+Total no of choices: 2
+
+--choices: [[Lcom.srts.phaseI.statemodel.Transition;@1a75e1b]
+---------IOMI Handling Completed---------
+33: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.<init>()V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 0
+----Choice value to r,c: 0,0
+----Current transition: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+------Source State: 0
+------Target State: 1
+------Guard: p_1_SYMINT == CONST_0
+----Getting and removing arguments from the stack: 48019305
+	at com.srts.phaseI.test2.Television.<init>()V:33
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+	    [3] @317
+	    [4] 0
+argTypes: [4]
+------Arguments Values:[CONST_0]
+--p
+INTEROBJ...Java:145 {p_1_SYMINT=CONST_0}
+NumericUtils.java:70 CONST_0 == CONST_0 is satisfiable!
+-----modified guard: CONST_0 == CONST_0
+------Argument Names:[p_1_SYMINT]
+----Obtaining and manipulating return value:12004800
+	at com.srts.phaseI.test2.Television.<init>()V:33
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 12004800
+	at com.srts.phaseI.test2.Television.<init>()V:33
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+----Choice Generator Manipulation
+------Final PC:constraint # = 1
+CONST_0 == CONST_0
+----settiong final state: 1
+---------IOMI Handling Completed---------
+33: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:36
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+During putfield of ps :ps(null,null)
+36: putfield
+39: aload_0
+40: iconst_0
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:41
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] 0
+During putfield of volume :CONST_0
+41: putfield
+44: aload_0
+45: iconst_0
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.<init>()V:46
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] 0
+During putfield of channel :CONST_0
+46: putfield
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+Setting PC: constraint # = 1 CONST_0 == CONST_0
+====Setting insn seq====
+--invokespecial com.srts.phaseI.test2.Television.<init>()V
+--aload_0
+--invokespecial java.lang.Object.<init>()V
+--aload_0
+--iconst_0
+--putfield
+--aload_0
+--aconst_null
+--putfield
+--aload_0
+--iconst_0
+--putfield
+--aload_0
+--iconst_0
+--putfield
+--aload_0
+--new com.srts.phaseI.test2.PowerState@13d
+--dup
+--aload_0
+--getfield
+--invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+--putfield
+--aload_0
+--iconst_0
+--putfield
+--aload_0
+--iconst_0
+--putfield
+--return  com.srts.phaseI.test2.Television.<init>()V
+=================
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.<init>()V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 1
+----Choice value to r,c: 0,1
+----Current transition: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+------Source State: 0
+------Target State: 1
+------Guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0
+----Getting and removing arguments from the stack: 48019305
+	at com.srts.phaseI.test2.Television.<init>()V:33
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+	    [3] @317
+	    [4] 0
+argTypes: [4]
+------Arguments Values:[CONST_0]
+--p
+INTEROBJ...Java:145 {p_1_SYMINT=CONST_0}
+-----modified guard: null
+------Guard Unsat. Backtracking..
+------Argument Names:[p_1_SYMINT]
+----Obtaining and manipulating return value:12004800
+	at com.srts.phaseI.test2.Television.<init>()V:33
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 12004800
+	at com.srts.phaseI.test2.Television.<init>()V:33
+	 slots: 	    [0] @233
+	      ----------- operand stack
+	    [1] @233
+	    [2] @317
+----Choice Generator Manipulation
+WARNING!!! GOUARD is not Constraint!! :null
+------Final PC:constraint # = 0
+----settiong final state: 1
+---------IOMI Handling Completed---------
+CoverageAnalyzer.java!!! State Ignored.
+CoverageAnalyzer.java!!! Instruction from non-supported method: executenative JPF_gov_nasa_jpf_jvm_Verify.getInt__II__I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.Television.<init>()V]
+CoverageAnalyzer.java!!! Instruction from non-supported method: nativereturn gov.nasa.jpf.jvm.Verify.getInt(II)I MethodInfo[gov.nasa.jpf.jvm.Verify.getInt(II)I] currentPublicMethodInfo:MethodInfo[com.srts.phaseI.test2.Television.<init>()V]
+backtracked: tableswitch 29
+ByteCodeUtils.java:363 Initializing p:false
+ByteCodeUtils.java:363 Initializing ps:true
+Helper.java:47 setting ps
+ByteCodeUtils.java:363 Initializing volume:false
+ByteCodeUtils.java:363 Initializing channel:false
+ByteCodeUtils.java:363 Initializing $state:true
+Helper.java:47 setting $state
+Method entered to com.srts.phaseI.test2.Television.doCall(II)V
+41: invokevirtual com.srts.phaseI.test2.Television.doCall(II)V
+0: iload_1
+1: iconst_1
+2: if_icmpne 31
+2: if_icmpne 31
+5: aload_0
+6: iconst_1
+===COvAnalyzer===
+	at com.srts.phaseI.test2.Television.doCall(II)V:7
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @306  attr=null
+	    [5] 1  attr=null
+During putfield of volume :CONST_1
+7: putfield
+	at com.srts.phaseI.test2.Television.doCall(II)V:10
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+10: new com.srts.phaseI.test2.PowerState@e9
+13: dup
+14: iload_1
+15: iload_2
+16: iadd
+17: bipush
+19: if_icmpne 26
+19: if_icmpne 26
+22: iconst_1
+23: goto 27
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.doCall(II)V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+InterObjectMetodInvocationListener.java:86 subclasses:[com.srts.phaseI.test2.PowerState]
+For subclass: com.srts.phaseI.test2.PowerState
+--getting transitions that can be triggered by the invoked method 
+-----Found: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+-----Found: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+
+No of subClasses: 1
+Total no of choices: 2
+
+--choices: [[Lcom.srts.phaseI.statemodel.Transition;@ed3512]
+---------IOMI Handling Completed---------
+27: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.doCall(II)V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 0
+----Choice value to r,c: 0,0
+----Current transition: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+------Source State: 0
+------Target State: 1
+------Guard: p_1_SYMINT == CONST_0
+----Getting and removing arguments from the stack: 252993809
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+	    [5] @233  attr=null
+	    [6] 1  attr=null
+argTypes: [4]
+------Arguments Values:[CONST_1]
+--p
+INTEROBJ...Java:145 {p_1_SYMINT=CONST_1}
+-----modified guard: null
+------Guard Unsat. Backtracking..
+------Argument Names:[p_1_SYMINT]
+----Obtaining and manipulating return value:99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+----Choice Generator Manipulation
+WARNING!!! GOUARD is not Constraint!! :null
+------Final PC:constraint # = 2
+(q_2_SYMINT + p_1_SYMINT) == CONST_8 &&
+p_1_SYMINT == CONST_1
+----settiong final state: 1
+---------IOMI Handling Completed---------
+CoverageAnalyzer.java!!! State Ignored.
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.doCall(II)V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 1
+----Choice value to r,c: 0,1
+----Current transition: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+------Source State: 0
+------Target State: 1
+------Guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0
+----Getting and removing arguments from the stack: 252993809
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+	    [5] @233  attr=null
+	    [6] 1  attr=null
+argTypes: [4]
+------Arguments Values:[CONST_1]
+--p
+INTEROBJ...Java:145 {p_1_SYMINT=CONST_1}
+NumericUtils.java:70 CONST_1 != CONST_0 && CONST_1 != CONST_0 is satisfiable!
+-----modified guard: CONST_1 != CONST_0 &&
+CONST_1 != CONST_0
+------Argument Names:[p_1_SYMINT]
+----Obtaining and manipulating return value:99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+----Choice Generator Manipulation
+------Final PC:constraint # = 3
+CONST_1 != CONST_0 &&
+(q_2_SYMINT + p_1_SYMINT) == CONST_8 &&
+p_1_SYMINT == CONST_1
+----settiong final state: 1
+---------IOMI Handling Completed---------
+27: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+backtracked: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V 17
+MethodInfo[com.srts.phaseI.test2.Television.doCall(II)V]  4 233 3
+30: astore_3
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : CONST_1 type: -1
+====vars====
+--CONST_1
+=================
+CoverageAnalyzer.java:271 Expression : CONST_1 type: -1
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : (q_2_SYMINT + p_1_SYMINT) type: -1
+====vars====
+--p_1_SYMINT
+--q_2_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : (q_2_SYMINT + p_1_SYMINT) type: 2
+CoverageAnalyzer.java:245 Expression : CONST_8 type: -1
+====vars====
+--CONST_8
+=================
+CoverageAnalyzer.java:271 Expression : CONST_8 type: -1
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: -1
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_1 type: -1
+====vars====
+--CONST_1
+=================
+CoverageAnalyzer.java:271 Expression : CONST_1 type: -1
+Setting PC: constraint # = 3 CONST_1 != CONST_0 && (q_2_SYMINT + p_1_SYMINT) == CONST_8 && p_1_SYMINT == CONST_1
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.Television.doCall(II)V
+--iload_1
+--iconst_1
+--if_icmpne 31
+--aload_0
+--iconst_1
+--putfield
+--new com.srts.phaseI.test2.PowerState@e9
+--dup
+--iload_1
+--iload_2
+--iadd
+--bipush
+--if_icmpne 26
+--iconst_1
+--goto 27
+--invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+--astore_3
+--return  com.srts.phaseI.test2.Television.doCall(II)V
+=================
+19: if_icmpne 26
+backtracked: if_icmpne 26 19
+26: iconst_0
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.doCall(II)V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+InterObjectMetodInvocationListener.java:86 subclasses:[com.srts.phaseI.test2.PowerState]
+For subclass: com.srts.phaseI.test2.PowerState
+--getting transitions that can be triggered by the invoked method 
+-----Found: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+-----Found: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+
+No of subClasses: 1
+Total no of choices: 2
+
+--choices: [[Lcom.srts.phaseI.statemodel.Transition;@1cc86ee]
+---------IOMI Handling Completed---------
+27: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.doCall(II)V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 0
+----Choice value to r,c: 0,0
+----Current transition: 2 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT == CONST_0 ret: null
+------Source State: 0
+------Target State: 1
+------Guard: p_1_SYMINT == CONST_0
+----Getting and removing arguments from the stack: 252993817
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+	    [5] @233  attr=null
+	    [6] 0  attr=null
+argTypes: [4]
+------Arguments Values:[CONST_0]
+--p
+INTEROBJ...Java:145 {p_1_SYMINT=CONST_0}
+NumericUtils.java:70 CONST_0 == CONST_0 is satisfiable!
+-----modified guard: CONST_0 == CONST_0
+------Argument Names:[p_1_SYMINT]
+----Obtaining and manipulating return value:99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+----Choice Generator Manipulation
+------Final PC:constraint # = 3
+CONST_0 == CONST_0 &&
+(q_2_SYMINT + p_1_SYMINT) != CONST_8 &&
+p_1_SYMINT == CONST_1
+----settiong final state: 1
+---------IOMI Handling Completed---------
+27: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+MethodInfo[com.srts.phaseI.test2.Television.doCall(II)V]  4 233 3
+30: astore_3
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : CONST_0 type: -1
+====vars====
+--CONST_0
+=================
+CoverageAnalyzer.java:271 Expression : CONST_0 type: -1
+CoverageAnalyzer.java:245 Expression : (q_2_SYMINT + p_1_SYMINT) type: 2
+====vars====
+--p_1_SYMINT
+--q_2_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : (q_2_SYMINT + p_1_SYMINT) type: 2
+CoverageAnalyzer.java:245 Expression : CONST_8 type: -1
+====vars====
+--CONST_8
+=================
+CoverageAnalyzer.java:271 Expression : CONST_8 type: -1
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: 2
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_1 type: -1
+====vars====
+--CONST_1
+=================
+CoverageAnalyzer.java:271 Expression : CONST_1 type: -1
+Setting PC: constraint # = 3 CONST_0 == CONST_0 && (q_2_SYMINT + p_1_SYMINT) != CONST_8 && p_1_SYMINT == CONST_1
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.Television.doCall(II)V
+--iload_1
+--iconst_1
+--if_icmpne 31
+--aload_0
+--iconst_1
+--putfield
+--new com.srts.phaseI.test2.PowerState@e9
+--dup
+--iload_1
+--iload_2
+--iadd
+--bipush
+--if_icmpne 26
+--iconst_0
+--invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+--astore_3
+--return  com.srts.phaseI.test2.Television.doCall(II)V
+=================
+---------Handling inter object method invocation---------
+----Obtaining reference value from the obj reference from the stack.
+refName: null refInstanceOf:com.srts.phaseI.test2.PowerState refState: null
+InterObjectMethodInvocationListener.java:: com.srts.phaseI.test2.Television.doCall(II)V is invoking com.srts.phaseI.test2.PowerState.<init>(Z)V return type: 12
+InterObjectMethodInvocationListener.java:: It is an <init>...
+
+
+Second time onwards..
+----Current choice condValue: 1
+----Choice value to r,c: 0,1
+----Current transition: 9 from 0 to 1 event:com.srts.phaseI.test2.PowerState.<init>(Z)V guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0 ret: null
+------Source State: 0
+------Target State: 1
+------Guard: p_1_SYMINT != CONST_0 &&
+p_1_SYMINT != CONST_0
+----Getting and removing arguments from the stack: 252993817
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+	    [5] @233  attr=null
+	    [6] 0  attr=null
+argTypes: [4]
+------Arguments Values:[CONST_0]
+--p
+INTEROBJ...Java:145 {p_1_SYMINT=CONST_0}
+-----modified guard: null
+------Guard Unsat. Backtracking..
+------Argument Names:[p_1_SYMINT]
+----Obtaining and manipulating return value:99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+------returnVal : #ref(null,null)
+------Return type void
+After pushing returned expression: 99039813
+	at com.srts.phaseI.test2.Television.doCall(II)V:27
+	 slots: 	    [0] @306  attr=null
+	    [1] 1  attr=p_1_SYMINT
+	    [2] 1  attr=q_2_SYMINT
+	    [3] 0  attr=null
+	      ----------- operand stack
+	    [4] @233  attr=null
+----Choice Generator Manipulation
+WARNING!!! GOUARD is not Constraint!! :null
+------Final PC:constraint # = 2
+(q_2_SYMINT + p_1_SYMINT) != CONST_8 &&
+p_1_SYMINT == CONST_1
+----settiong final state: 1
+---------IOMI Handling Completed---------
+CoverageAnalyzer.java!!! State Ignored.
+2: if_icmpne 31
+backtracked: if_icmpne 31 18
+Setting Expression types in PC
+CoverageAnalyzer.java:245 Expression : p_1_SYMINT type: 2
+====vars====
+--p_1_SYMINT
+=================
+CoverageAnalyzer.java:271 Expression : p_1_SYMINT type: 2
+CoverageAnalyzer.java:245 Expression : CONST_1 type: -1
+====vars====
+--CONST_1
+=================
+CoverageAnalyzer.java:271 Expression : CONST_1 type: -1
+Setting PC: constraint # = 1 p_1_SYMINT != CONST_1
+====Setting insn seq====
+--invokevirtual com.srts.phaseI.test2.Television.doCall(II)V
+--iload_1
+--iconst_1
+--if_icmpne 31
+--return  com.srts.phaseI.test2.Television.doCall(II)V
+=================
+1: constraint # = 3 CONST_1 != CONST_0 && (q_2_SYMINT + p_1_SYMINT) == CONST_8 && p_1_SYMINT == CONST_1
+method: com.srts.phaseI.test2.Television.doCall(II)V
+      0: iload_1
+      1: iconst_1
+      2: if_icmpne 31
+      5: aload_0
+      6: iconst_1
+      7: putfield
+      10: new com.srts.phaseI.test2.PowerState@e9
+      13: dup
+      14: iload_1
+      15: iload_2
+      16: iadd
+      17: bipush
+      19: if_icmpne 26
+      22: iconst_1
+      23: goto 27
+      27: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+      30: astore_3
+      31: return  com.srts.phaseI.test2.Television.doCall(II)V
+returned Expression: null
+VSM: updated:true
+volume=CONST_1 updated by:7 putfield of com.srts.phaseI.test2.Television.doCall(II)V
+2: constraint # = 3 CONST_0 == CONST_0 && (q_2_SYMINT + p_1_SYMINT) != CONST_8 && p_1_SYMINT == CONST_1
+method: com.srts.phaseI.test2.Television.doCall(II)V
+      0: iload_1
+      1: iconst_1
+      2: if_icmpne 31
+      5: aload_0
+      6: iconst_1
+      7: putfield
+      10: new com.srts.phaseI.test2.PowerState@e9
+      13: dup
+      14: iload_1
+      15: iload_2
+      16: iadd
+      17: bipush
+      19: if_icmpne 26
+      26: iconst_0
+      27: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+      30: astore_3
+      31: return  com.srts.phaseI.test2.Television.doCall(II)V
+returned Expression: null
+VSM: updated:false
+3: constraint # = 1 CONST_0 == CONST_0
+method: com.srts.phaseI.test2.Television.<init>()V
+      0: aload_0
+      1: invokespecial java.lang.Object.<init>()V
+      4: aload_0
+      5: iconst_0
+      6: putfield
+      9: aload_0
+      10: aconst_null
+      11: putfield
+      14: aload_0
+      15: iconst_0
+      16: putfield
+      19: aload_0
+      20: iconst_0
+      21: putfield
+      24: aload_0
+      25: new com.srts.phaseI.test2.PowerState@13d
+      28: dup
+      29: aload_0
+      30: getfield
+      33: invokespecial com.srts.phaseI.test2.PowerState.<init>(Z)V
+      36: putfield
+      39: aload_0
+      40: iconst_0
+      41: putfield
+      44: aload_0
+      45: iconst_0
+      46: putfield
+      49: return  com.srts.phaseI.test2.Television.<init>()V
+returned Expression: null
+VSM: updated:true
+p=CONST_0 updated by:6 putfield of com.srts.phaseI.test2.Television.<init>()V
+volume=CONST_0 updated by:41 putfield of com.srts.phaseI.test2.Television.<init>()V
+channel=CONST_0 updated by:46 putfield of com.srts.phaseI.test2.Television.<init>()V
+ps=ps(null,null) updated by:36 putfield of com.srts.phaseI.test2.Television.<init>()V
+4: constraint # = 1 p_1_SYMINT != CONST_1
+method: com.srts.phaseI.test2.Television.doCall(II)V
+      0: iload_1
+      1: iconst_1
+      2: if_icmpne 31
+      31: return  com.srts.phaseI.test2.Television.doCall(II)V
+returned Expression: null
+VSM: updated:false
+====MDLs====
+=================
+StateModelBuilder.java: Removing unsat object constraints...
+--Added: []
+null is satisfiable: true
+====Adding state with following condition:====
+=================
+
+
+Analysis of Path: 1 pc: constraint # = 3 CONST_1 != CONST_0 && (q_2_SYMINT + p_1_SYMINT) == CONST_8 && p_1_SYMINT == CONST_1 Constructor: false
+StateModelBuilder.java:172!!! getType of CONST_1 != CONST_0 &&
+(q_2_SYMINT + p_1_SYMINT) == CONST_8 &&
+p_1_SYMINT == CONST_1 should be mxl. Got: -1
+pdl: (q_2_SYMINT + p_1_SYMINT) == CONST_8 && p_1_SYMINT == CONST_1 mdl:null
+
+State id:1 cond:null
+Pre state matched to q1
+-- got this expression map from vsm: {volume=CONST_1}
+--post state matched with q1
+Transition Created: 1 from 1 to 1 event:com.srts.phaseI.test2.Television.doCall(II)V guard: (q_2_SYMINT + p_1_SYMINT) == CONST_8 &&
+p_1_SYMINT == CONST_1 ret: null
+
+State id:0 cond:null
+
+State id:-1 cond:null
+
+
+Analysis of Path: 2 pc: constraint # = 3 CONST_0 == CONST_0 && (q_2_SYMINT + p_1_SYMINT) != CONST_8 && p_1_SYMINT == CONST_1 Constructor: false
+StateModelBuilder.java:172!!! getType of CONST_0 == CONST_0 &&
+(q_2_SYMINT + p_1_SYMINT) != CONST_8 &&
+p_1_SYMINT == CONST_1 should be mxl. Got: -1
+pdl: (q_2_SYMINT + p_1_SYMINT) != CONST_8 && p_1_SYMINT == CONST_1 mdl:null
+
+State id:1 cond:null
+Pre state matched to q1
+-- got this expression map from vsm: {}
+--post state matched with q1
+Transition Created: 2 from 1 to 1 event:com.srts.phaseI.test2.Television.doCall(II)V guard: (q_2_SYMINT + p_1_SYMINT) != CONST_8 &&
+p_1_SYMINT == CONST_1 ret: null
+
+State id:0 cond:null
+
+State id:-1 cond:null
+
+
+Analysis of Path: 3 pc: constraint # = 1 CONST_0 == CONST_0 Constructor: true
+StateModelBuilder.java:172!!! getType of CONST_0 == CONST_0 should be mxl. Got: -1
+pdl: null mdl:null
+
+State id:1 cond:null
+Pre state matched to q1
+-- got this expression map from vsm: {ps(null,null)=CONST_1, channel=CONST_0, volume=CONST_0, p=CONST_0}
+--post state matched with q1
+Transition Created: 3 from 0 to 1 event:com.srts.phaseI.test2.Television.<init>()V guard: null ret: null
+
+
+Analysis of Path: 4 pc: constraint # = 1 p_1_SYMINT != CONST_1 Constructor: false
+pdl: p_1_SYMINT != CONST_1 mdl:null
+
+State id:1 cond:null
+Pre state matched to q1
+-- got this expression map from vsm: {}
+--post state matched with q1
+Transition Created: 4 from 1 to 1 event:com.srts.phaseI.test2.Television.doCall(II)V guard: p_1_SYMINT != CONST_1 ret: null
+
+State id:0 cond:null
+
+State id:-1 cond:null
+===============State Model Summary==============
+# States: 3
+# Transitions: 4
+================================================
+Minimized No of Transitions: 2
