@@ -22,7 +22,7 @@ package com.srts.phaseI.classfile;
 import java.io.PrintWriter;
 
 /**
- * utility class that prints out bytecode in readable form
+ * utility class that prints out bytecode in readable form, which is necessary
  */
 public class ByteCodePrinter implements ByteCodeReader {
 
